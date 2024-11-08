@@ -1,0 +1,45 @@
+//Remove divine weaponry weapons
+
+ServerEvents.recipes(event => {
+    event.remove({ output: 'divine_weaponry:wooden_katana'})
+    event.remove({ output: 'divine_weaponry:stone_katana'})
+    event.remove({ output: 'divine_weaponry:iron_katana'})
+    event.remove({ output: 'divine_weaponry:golden_katana'})
+    event.remove({ output: 'divine_weaponry:diamond_katana'})
+    event.remove({ output: 'divine_weaponry:netherite_katana'})
+
+    event.remove({ output: 'divine_weaponry:wooden_dagger'})
+    event.remove({ output: 'divine_weaponry:stone_dagger'})
+    event.remove({ output: 'divine_weaponry:iron_dagger'})
+    event.remove({ output: 'divine_weaponry:golden_dagger'})
+    event.remove({ output: 'divine_weaponry:diamond_dagger'})
+    event.remove({ output: 'divine_weaponry:netherite_dagger'})
+
+    event.remove({ output: 'divine_weaponry:wooden_rapier'})
+    event.remove({ output: 'divine_weaponry:stone_rapier'})
+    event.remove({ output: 'divine_weaponry:iron_rapier'})
+    event.remove({ output: 'divine_weaponry:golden_rapier'})
+    event.remove({ output: 'divine_weaponry:diamond_rapier'})
+    event.remove({ output: 'divine_weaponry:netherite_rapier'})
+
+    event.remove({ output: 'divine_weaponry:wooden_longsword'})
+    event.remove({ output: 'divine_weaponry:stone_longsword'})
+    event.remove({ output: 'divine_weaponry:iron_longsword'})
+    event.remove({ output: 'divine_weaponry:golden_longsword'})
+    event.remove({ output: 'divine_weaponry:diamond_longsword'})
+    event.remove({ output: 'divine_weaponry:netherite_longsword'})
+
+    event.remove({ output: 'divine_weaponry:wooden_spear'})
+    event.remove({ output: 'divine_weaponry:stone_spear'})
+    event.remove({ output: 'divine_weaponry:iron_spear'})
+    event.remove({ output: 'divine_weaponry:golden_spear'})
+    event.remove({ output: 'divine_weaponry:diamond_spear'})
+    event.remove({ output: 'divine_weaponry:netherite_spear'})
+    
+    event.remove({ output: 'divine_weaponry:wooden_glaive'})
+    event.remove({ output: 'divine_weaponry:stone_glaive'})
+    event.remove({ output: 'divine_weaponry:iron_glaive'})
+    event.remove({ output: 'divine_weaponry:golden_glaive'})
+    event.remove({ output: 'divine_weaponry:diamond_glaive'})
+    event.remove({ output: 'divine_weaponry:netherite_glaive'})
+})

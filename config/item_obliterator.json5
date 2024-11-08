@@ -1,0 +1,238 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "ars_nouveau:glyph_animate_block",
+
+    "divine_weaponry:wooden_katana",
+    "divine_weaponry:stone_katana",
+    "divine_weaponry:iron_katana",
+    "divine_weaponry:golden_katana",
+    "divine_weaponry:diamond_katana",
+    "divine_weaponry:netherite_katana",
+
+    "divine_weaponry:wooden_dagger",
+    "divine_weaponry:stone_dagger",
+    "divine_weaponry:iron_dagger",
+    "divine_weaponry:golden_dagger",
+    "divine_weaponry:diamond_dagger",
+    "divine_weaponry:netherite_dagger",
+
+    "divine_weaponry:wooden_rapier",
+    "divine_weaponry:stone_rapier",
+    "divine_weaponry:iron_rapier",
+    "divine_weaponry:golden_rapier",
+    "divine_weaponry:diamond_rapier",
+    "divine_weaponry:netherite_rapier",
+
+    "divine_weaponry:wooden_longsword",
+    "divine_weaponry:stone_longsword",
+    "divine_weaponry:iron_longsword",
+    "divine_weaponry:golden_longsword",
+    "divine_weaponry:diamond_longsword",
+    "divine_weaponry:netherite_longsword",
+
+    "divine_weaponry:wooden_spear",
+    "divine_weaponry:stone_spear",
+    "divine_weaponry:iron_spear",
+    "divine_weaponry:golden_spear",
+    "divine_weaponry:diamond_spear",
+    "divine_weaponry:netherite_spear",
+
+    "divine_weaponry:wooden_glaive",
+    "divine_weaponry:stone_glaive",
+    "divine_weaponry:iron_glaive",
+    "divine_weaponry:golden_glaive",
+    "divine_weaponry:diamond_glaive",
+    "divine_weaponry:netherite_glaive",
+
+    "expanded_combat:oak_plank_scythe",
+    "expanded_combat:acacia_plank_scythe",
+    "expanded_combat:birch_plank_scythe",
+    "expanded_combat:dark_oak_plank_scythe",
+    "expanded_combat:spruce_plank_scythe",
+    "expanded_combat:jungle_plank_scythe",
+    "expanded_combat:warped_plank_scythe",
+    "expanded_combat:crimson_plank_scythe",
+    "expanded_combat:mangrove_plank_scythe",
+    "expanded_combat:bamboo_plank_scythe",
+    "expanded_combat:cherry_plank_scythe",
+    "expanded_combat:stone_scythe",
+    "expanded_combat:iron_scythe",
+    "expanded_combat:gold_scythe",
+    "expanded_combat:diamond_scythe",
+    "expanded_combat:netherite_scythe",
+    
+    "expanded_combat:oak_plank_katana",
+    "expanded_combat:acacia_plank_katana",
+    "expanded_combat:birch_plank_katana",
+    "expanded_combat:dark_oak_plank_katana",
+    "expanded_combat:spruce_plank_katana",
+    "expanded_combat:jungle_plank_katana",
+    "expanded_combat:warped_plank_katana",
+    "expanded_combat:crimson_plank_katana",
+    "expanded_combat:mangrove_plank_katana",
+    "expanded_combat:bamboo_plank_katana",
+    "expanded_combat:cherry_plank_katana",
+    "expanded_combat:stone_katana",
+    "expanded_combat:iron_katana",
+    "expanded_combat:gold_katana",
+    "expanded_combat:diamond_katana",
+    "expanded_combat:netherite_katana",
+    "ec_alexs_caves_plugin:pewen_plank_katana",
+    "ec_alexs_caves_plugin:thornwood_katana",
+
+    "expanded_combat:oak_plank_dagger",
+    "expanded_combat:acacia_plank_dagger",
+    "expanded_combat:birch_plank_dagger",
+    "expanded_combat:dark_oak_plank_dagger",
+    "expanded_combat:spruce_plank_dagger",
+    "expanded_combat:jungle_plank_dagger",
+    "expanded_combat:warped_plank_dagger",
+    "expanded_combat:crimson_plank_dagger",
+    "expanded_combat:mangrove_plank_dagger",
+    "expanded_combat:bamboo_plank_dagger",
+    "expanded_combat:cherry_plank_dagger",
+    "expanded_combat:stone_dagger",
+    "expanded_combat:iron_dagger",
+    "expanded_combat:gold_dagger",
+    "expanded_combat:diamond_dagger",
+    "expanded_combat:netherite_dagger",
+    "ec_alexs_caves_plugin:pewen_plank_dagger",
+    "ec_alexs_caves_plugin:thornwood_dagger",
+    
+    "expanded_combat:oak_plank_spear",
+    "expanded_combat:acacia_plank_spear",
+    "expanded_combat:birch_plank_spear",
+    "expanded_combat:dark_oak_plank_spear",
+    "expanded_combat:spruce_plank_spear",
+    "expanded_combat:jungle_plank_spear",
+    "expanded_combat:warped_plank_spear",
+    "expanded_combat:crimson_plank_spear",
+    "expanded_combat:mangrove_plank_spear",
+    "expanded_combat:bamboo_plank_spear",
+    "expanded_combat:cherry_plank_spear",
+    "expanded_combat:stone_spear",
+    "expanded_combat:iron_spear",
+    "expanded_combat:gold_spear",
+    "expanded_combat:diamond_spear",
+    "expanded_combat:netherite_spear",
+    "ec_tf_plugin:ironwood_spear",
+    "ec_tf_plugin:fiery_spear",
+    "ec_tf_plugin:steeleaf_spear",
+    "ec_tf_plugin:knight_metal_spear",
+
+    "expanded_combat:oak_plank_glaive",
+    "expanded_combat:acacia_plank_glaive",
+    "expanded_combat:birch_plank_glaive",
+    "expanded_combat:dark_oak_plank_glaive",
+    "expanded_combat:spruce_plank_glaive",
+    "expanded_combat:jungle_plank_glaive",
+    "expanded_combat:warped_plank_glaive",
+    "expanded_combat:crimson_plank_glaive",
+    "expanded_combat:mangrove_plank_glaive",
+    "expanded_combat:bamboo_plank_glaive",
+    "expanded_combat:cherry_plank_glaive",
+    "expanded_combat:stone_glaive",
+    "expanded_combat:iron_glaive",
+    "expanded_combat:gold_glaive",
+    "expanded_combat:diamond_glaive",
+    "expanded_combat:netherite_glaive",
+    "ec_alexs_caves_plugin:pewen_plank_glaive",
+    "ec_alexs_caves_plugin:thornwood_glaive",
+    "ec_tf_plugin:ironwood_glaive",
+    "ec_tf_plugin:fiery_glaive",
+    "ec_tf_plugin:steeleaf_glaive",
+    "ec_tf_plugin:knight_metal_glaive",
+
+    "better_weaponry:wooden_scythe",
+    "better_weaponry:stone_scythe",
+    "better_weaponry:iron_scythe",
+    "better_weaponry:golden_scythe",
+    "better_weaponry:diamond_scythe",
+    "better_weaponry:netherite_scythe",
+
+    "better_weaponry:wooden_knife",
+    "better_weaponry:stone_knife",
+    "better_weaponry:iron_knife",
+    "better_weaponry:golden_knife",
+    "better_weaponry:diamond_knife",
+    "better_weaponry:netherite_knife",
+
+    "better_weaponry:wooden_rapier",
+    "better_weaponry:stone_rapier",
+    "better_weaponry:iron_rapier",
+    "better_weaponry:golden_rapier",
+    "better_weaponry:diamond_rapier",
+    "better_weaponry:netherite_rapier",
+
+    "better_weaponry:wooden_glaive",
+    "better_weaponry:stone_glaive",
+    "better_weaponry:iron_glaive",
+    "better_weaponry:golden_glaive",
+    "better_weaponry:diamond_glaive",
+    "better_weaponry:netherite_glaive",
+
+    "knavesneeds:twilight_forest/fiery/katana",
+    "knavesneeds:twilight_forest/ironwood/katana",
+    "knavesneeds:twilight_forest/knightmetal/katana",
+    "knavesneeds:twilight_forest/steeleaf/katana",
+
+    "simplyswords:iron_katana",
+    "simplyswords:gold_katana",
+
+    "simplyswords:iron_scythe",
+    "simplyswords:gold_scythe",
+    
+    "simplyswords:iron_spear",
+    "simplyswords:gold_spear",
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

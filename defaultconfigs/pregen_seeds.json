@@ -1,0 +1,94 @@
+{
+	"level_seeds": [
+		{
+			"dim": "minecraft:the_end",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:the_abyss",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "twilightforest:twilight_forest",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:pocket_dimension",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "graveyard:past",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:spectral_world",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:frost_world",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "wrd:wesleys_infinite_dungeons",
+			"seed": -1150404972562851503
+		}
+	],
+	"structure_seeds": [
+		{
+			"dim": "minecraft:the_end",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:the_abyss",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "twilightforest:twilight_forest",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:pocket_dimension",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "graveyard:past",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:spectral_world",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "theabyss:frost_world",
+			"seed": -1150404972562851503
+		},
+		{
+			"dim": "wrd:wesleys_infinite_dungeons",
+			"seed": -1150404972562851503
+		}
+	]
+}
