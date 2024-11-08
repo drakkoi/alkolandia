@@ -1,0 +1,16 @@
+crash-reports
+libraries
+logs
+banned-ips.json
+banned-players.json
+eula.txt
+ops.json
+server.properties
+server-icon.png
+user_jvm_args.txt
+usercache.json
+desktop.ini
+usernamecache.json
+whitelist.json
+
+world

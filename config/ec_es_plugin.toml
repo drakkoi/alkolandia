@@ -1,0 +1,444 @@
+[steel]
+equipSound = "minecraft:item.armor.equip_iron"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 5
+
+[steel.durability]
+toolDurability = 1000
+bowDurability = 550
+addedShieldDurability = 200
+
+[steel.enchanting]
+offenseEnchantability = 15
+defenseEnchantability = 12
+
+[steel.offense]
+addedAttackDamage = 2.5
+arrowDamage = 3.25
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 3.0
+
+[steel.defense]
+gauntletArmorAmount = 3
+armorToughness = 0.5
+knockbackResistance = 0.0
+baseProtectionAmmount = 4.0
+afterBasePercentReduction = 0.65
+
+[steel.crafting]
+repairItem = ["samurai_dynasty:steel_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[kitsune_hide]
+equipSound = "minecraft:item.armor.equip_leather"
+mendingBonus = 2.0
+fireResistant = false
+quiverSlots = 14
+
+[kitsune_hide.durability]
+toolDurability = 32
+bowDurability = 0
+addedShieldDurability = 100
+
+[kitsune_hide.enchanting]
+offenseEnchantability = 22
+defenseEnchantability = 25
+
+[kitsune_hide.offense]
+addedAttackDamage = 0.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[kitsune_hide.defense]
+gauntletArmorAmount = 1
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 8.0
+afterBasePercentReduction = 0.7
+
+[kitsune_hide.crafting]
+repairItem = ["samurai_dynasty:kitsune_hide"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[silver]
+equipSound = "minecraft:item.armor.equip_iron"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[silver.durability]
+toolDurability = 0
+bowDurability = 0
+addedShieldDurability = 80
+
+[silver.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 12
+
+[silver.offense]
+addedAttackDamage = 1.5
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[silver.defense]
+gauntletArmorAmount = 2
+armorToughness = 0.5
+knockbackResistance = 0.0
+baseProtectionAmmount = 3.0
+afterBasePercentReduction = 0.5
+
+[silver.crafting]
+repairItem = ["samurai_dynasty:silver_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[amethyst_coated_steel]
+equipSound = "minecraft:block.amethyst_cluster.place"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[amethyst_coated_steel.durability]
+toolDurability = 1000
+bowDurability = 0
+addedShieldDurability = 0
+
+[amethyst_coated_steel.enchanting]
+offenseEnchantability = 15
+defenseEnchantability = 25
+
+[amethyst_coated_steel.offense]
+addedAttackDamage = 2.5
+arrowDamage = 3.25
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[amethyst_coated_steel.defense]
+gauntletArmorAmount = 3
+armorToughness = 2.5
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[amethyst_coated_steel.crafting]
+repairItem = ["samurai_dynasty:amethyst_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[quartz_coated_steel]
+equipSound = "minecraft:item.armor.equip_diamond"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[quartz_coated_steel.durability]
+toolDurability = 1000
+bowDurability = 0
+addedShieldDurability = 0
+
+[quartz_coated_steel.enchanting]
+offenseEnchantability = 15
+defenseEnchantability = 25
+
+[quartz_coated_steel.offense]
+addedAttackDamage = 2.5
+arrowDamage = 3.25
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[quartz_coated_steel.defense]
+gauntletArmorAmount = 3
+armorToughness = 2.5
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[quartz_coated_steel.crafting]
+repairItem = ["samurai_dynasty:quartz_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[straw]
+equipSound = "minecraft:item.armor.equip_iron"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[straw.durability]
+toolDurability = 10
+bowDurability = 0
+addedShieldDurability = 0
+
+[straw.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 7
+
+[straw.offense]
+addedAttackDamage = 0.5
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[straw.defense]
+gauntletArmorAmount = 1
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[straw.crafting]
+repairItem = ["minecraft:wheat"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[cloth]
+equipSound = "minecraft:item.armor.equip_leather"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[cloth.durability]
+toolDurability = 150
+bowDurability = 0
+addedShieldDurability = 0
+
+[cloth.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 12
+
+[cloth.offense]
+addedAttackDamage = 1.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[cloth.defense]
+gauntletArmorAmount = 1
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[cloth.crafting]
+repairItem = ["samurai_dynasty:cloth"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[ninja_gold]
+equipSound = "minecraft:item.armor.equip_gold"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[ninja_gold.durability]
+toolDurability = 160
+bowDurability = 0
+addedShieldDurability = 0
+
+[ninja_gold.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 25
+
+[ninja_gold.offense]
+addedAttackDamage = 1.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[ninja_gold.defense]
+gauntletArmorAmount = 1
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[ninja_gold.crafting]
+repairItem = ["minecraft:gold_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[ninja_iron]
+equipSound = "minecraft:item.armor.equip_iron"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[ninja_iron.durability]
+toolDurability = 200
+bowDurability = 0
+addedShieldDurability = 0
+
+[ninja_iron.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 12
+
+[ninja_iron.offense]
+addedAttackDamage = 2.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[ninja_iron.defense]
+gauntletArmorAmount = 2
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[ninja_iron.crafting]
+repairItem = ["minecraft:iron_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[ninja_steel]
+equipSound = "minecraft:item.armor.equip_iron"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[ninja_steel.durability]
+toolDurability = 300
+bowDurability = 0
+addedShieldDurability = 0
+
+[ninja_steel.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 12
+
+[ninja_steel.offense]
+addedAttackDamage = 2.5
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[ninja_steel.defense]
+gauntletArmorAmount = 2
+armorToughness = 0.5
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[ninja_steel.crafting]
+repairItem = ["samurai_dynasty:steel_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[ninja_diamond]
+equipSound = "minecraft:item.armor.equip_diamond"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[ninja_diamond.durability]
+toolDurability = 800
+bowDurability = 0
+addedShieldDurability = 0
+
+[ninja_diamond.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 12
+
+[ninja_diamond.offense]
+addedAttackDamage = 3.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[ninja_diamond.defense]
+gauntletArmorAmount = 3
+armorToughness = 1.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[ninja_diamond.crafting]
+repairItem = ["minecraft:diamond"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[ninja_netherite]
+equipSound = "minecraft:item.armor.equip_netherite"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[ninja_netherite.durability]
+toolDurability = 1200
+bowDurability = 0
+addedShieldDurability = 0
+
+[ninja_netherite.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 25
+
+[ninja_netherite.offense]
+addedAttackDamage = 4.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[ninja_netherite.defense]
+gauntletArmorAmount = 3
+armorToughness = 3.0
+knockbackResistance = 0.10000000149011612
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[ninja_netherite.crafting]
+repairItem = ["minecraft:netherite_ingot"]
+craftingItem = ""
+isSingleAddition = true
+onlyReplaceResource = []
+smithingTemplate = "minecraft:netherite_upgrade_smithing_template"
