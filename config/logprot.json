@@ -9,7 +9,7 @@
   },
   "debugOutput": {
     "desc:": "Whether to enable debug log outputs, default: false",
-    "debugOutput": false
+    "debugOutput": true
   },
   "dimensionprotection": {
     "desc:": "Enables the protection for dimension changes too, default: true",

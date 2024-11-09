@@ -83,4 +83,8 @@ ItemEvents.modification(event => {
         item.attackDamage = 11.5
 		item.attackSpeed = -3.0
 	});
+
+	event.modify('souls_weapons:moonstone_pickaxe', item => {
+        item.level = 9
+	});
 })

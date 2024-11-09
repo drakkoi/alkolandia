@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
 	//End Remastered Eyes to Pearls
 	event.shapeless(
-		Item.of('minecraft:ender_pearl', 4),
+		Item.of('minecraft:ender_pearl', 1),
 		[
 			'#forge:eyes'
 		]

@@ -91,7 +91,7 @@
       "weapon_attributes": "bettercombat:coral_blade"
     },
     {
-      "item_id_regex": "twin_blade|twinblade",
+      "item_id_regex": "twin_blade|twinblade|dancer_s_sword",
       "weapon_attributes": "bettercombat:twin_blade"
     },
     {
