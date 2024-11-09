@@ -182,7 +182,12 @@ ServerEvents.tags('item', event => {
         'minecraft:vine', 
         'hexerei:willow_vines', 
     )
+
     event.add('forbidden_arcanus:modifier/eternal_incompatible',[
         'minecraft:nether_star','bloodmagic:sanguinereverter','#occultism:miners/ores','apotheosis:potion_charm'
+    ])
+
+    event.add('forge:needs_netherite_tool',[
+        'waystones:mossy_waystone','waystones:sandy_waystone','waystones:waystone'
     ])
 })
