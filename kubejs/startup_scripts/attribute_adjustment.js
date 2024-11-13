@@ -27,7 +27,7 @@ ItemEvents.modification(event => {
 		item.attackSpeed = -4.0
 	});
 
-	event.modify('ars_noveau:enchanters_sword', item => {
+	event.modify('ars_nouveau:enchanters_sword', item => {
 		item.attackDamage = 6.0
 	});
 
@@ -95,7 +95,7 @@ ItemEvents.modification(event => {
 		item.attackSpeed = -3.3
 	});
 
-	event.modify('born_in_cahos_v1:nightmare_scythe', item => {
+	event.modify('born_in_chaos_v1:nightmare_scythe', item => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 13.5
 	});
@@ -112,7 +112,7 @@ ItemEvents.modification(event => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 13.0
 	});
-	event.modify('knavesneeds:deepardarker/warden/scythe', item => {
+	event.modify('knavesneeds:deeperdarker/warden/scythe', item => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 17.0
 	});
@@ -121,34 +121,46 @@ ItemEvents.modification(event => {
 		//item.attackSpeed = -3.3
 //		item.attackDamage = 17.0
 //	});
-	event.modify('soulsweapons:darkin_scythe_pre', item => {
-		item.attackSpeed = -3.3
-		item.attackDamage = 15.0
-	});
-	event.modify('soulsweapons:darkin_scythe', item => {
-		item.attackSpeed = -3.3
-		item.attackDamage = 19.0
-	});
-	event.modify('soulsweapons:shadow_assasin_scythe', item => {
-		item.attackSpeed = -3.3
-		item.attackDamage = 19.0
-	});
+	// event.modify('soulsweapons:darkin_scythe_pre', item => {
+	// 	item.attackSpeed = -3.3
+	// 	item.attackDamage = 15.0
+	// });
+	// event.modify('soulsweapons:darkin_scythe', item => {
+	// 	item.attackSpeed = -3.3
+	// 	item.attackDamage = 19.0
+	// });
+	// event.modify('soulsweapons:shadow_assasin_scythe', item => {
+	// 	item.attackSpeed = -3.3
+	// 	item.attackDamage = 19.0
+	// });
 
-	event.modify('simplysords:diamond_scythe', item => {
+	event.modify('simplyswords:diamond_scythe', item => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 12.0
 	});
-	event.modify('simplysords:netherite_scythe', item => {
+	event.modify('simplyswords:netherite_scythe', item => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 13.0
 	});
-	event.modify('simplysords:runic_scythe', item => {
+	event.modify('simplyswords:runic_scythe', item => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 14.0
 	});
-	event.modify('simplysords:magiscythe', item => {
+	event.modify('simplyswords:magiscythe', item => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 14.0
+	});
+	event.modify('simplyswords:gobber_compat/gobber/gobber_scythe', item => {
+		item.attackSpeed = -3.3
+		item.attackDamage = 16.0
+	});
+	event.modify('simplyswords:gobber_compat/gobber_nether/gobber_nether_scythe', item => {
+		item.attackSpeed = -3.3
+		item.attackDamage = 18.0
+	});
+	event.modify('simplyswords:gobber_compat/gobber_end/gobber_end_scythe', item => {
+		item.attackSpeed = -3.3
+		item.attackDamage = 21.0
 	});
 
 	event.modify('ec_cje_plugin:enderite_scythe', item => {
@@ -180,7 +192,7 @@ ItemEvents.modification(event => {
 		item.attackDamage = 12.0
 		item.attackSpeed = -3.3
 	});
-	event.modify('eidolon:dreathbringer_scythe', item => {
+	event.modify('eidolon:deathbringer_scythe', item => {
 		item.attackDamage = 15.0
 		item.attackSpeed = -3.3
 	});
@@ -191,9 +203,270 @@ ItemEvents.modification(event => {
 	});
 
 	event.modify('magistuarmoryaddon:steel_scythe', item => {
-		item.attackDamage = 12.71
+		item.attackDamage = 11.71
 	});
-	
+
+	//DAGGERS
+	event.modify('mowziesmobs:naga_fang_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('stalwart_dungeons:awful_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('graveyard:bone_dagger', item => {
+		item.attackSpeed = -0.7
+		item.attackDamage = 3.5
+	});
+	event.modify('useless_sword:pillager_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 3.0
+	});
+	event.modify('alexscaves:desolate_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 3.0
+	});
+	event.modify('aquamirae:dagger_of_greed', item => {
+		item.attackSpeed = -1.5
+	});
+	event.modify('born_in_chaos_v1:dark_ritual_dagger', item => {
+		item.attackSpeed = -1.4
+	});
+	event.modify('born_in_chaos_v1:intoxicating_dagger', item => {
+		item.attackSpeed = -1.3
+	});
+	event.modify('divine_weaponry:fujindagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('better_weaponry:wooden_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 2.0
+	});
+	event.modify('better_weaponry:stone_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 2.5
+	});
+	event.modify('better_weaponry:copper_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 2.25
+	});
+	event.modify('better_weaponry:golden_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 2.5
+	});
+	event.modify('better_weaponry:iron_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 3.0
+	});
+	event.modify('better_weaponry:amethyst_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 3.5
+	});
+	event.modify('better_weaponry:emerald_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 3.5
+	});
+	event.modify('better_weaponry:netherite_dagger', item => {
+		item.attackSpeed = -1.0
+		item.attackDamage = 5.5
+	});
+	event.modify('ec_cje_plugin:enderite_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('ec_cje_plugin:gilded_enderite_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('ec_aquaculture_plugin:neptunium_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('ec_es_plugin:steel_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('ec_tf_plugin:ironwood_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('ec_tf_plugin:fiery_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('ec_tf_plugin:steeleaf_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('ec_tf_plugin:knight_metal_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('magistuarmoryadons:steel_bollock_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('magistuarmoryadons:steel_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('magistuarmoryadons:steel_rondel_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	event.modify('magistuarmoryadons:steel_antique_dagger', item => {
+		item.attackSpeed = -1.0
+	});
+	//KATANAS
+	event.modify('epic_knights__japanese_armory:iron_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('epic_knights__japanese_armory:wood_katana', item => {
+		item.attackSpeed = -2.0
+	});
+
+	event.modify('knavesneeds:forbidden_arcanus/draco_arcanus/katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('knavesneeds:forbidden_arcanus/reinforced_deorum/katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('knavesneeds:soulsweapons/translucent/katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('knavesneeds:deeperdarker/warden/katana', item => {
+		item.attackSpeed = -2.15
+	});
+
+	event.modify('simplyswords:diamond_katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('simplyswords:netherite_katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('simplyswords:runic_katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('simplyswords:magikatana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('simplyswords:gobber_compat/gobber/gobber_katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('simplyswords:gobber_compat/gobber_nether/gobber_nether_katana', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('simplyswords:gobber_compat/gobber_end/gobber_end_katana', item => {
+		item.attackSpeed = -2.15
+	});
+
+	event.modify('better_weaponry:wooden_katana', item => {
+        item.attackDamage = 4.0
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:stone_katana', item => {
+        item.attackDamage = 5.0
+		item.attackSpeed = -3.0
+	});
+	event.modify('better_weaponry:golden_katana', item => {
+        item.attackDamage = 5.5
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:copper_katana', item => {
+        item.attackDamage = 5.5
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:iron_katana', item => {
+        item.attackDamage = 6.0
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:emerald_katana', item => {
+        item.attackDamage = 6.5
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:amethyst_katana', item => {
+        item.attackDamage = 6.5
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:diamond_katana', item => {
+        item.attackDamage = 7.0
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:netherite_katana', item => {
+        item.attackDamage = 8
+		item.attackSpeed = -2.0
+	});
+	event.modify('divine_weaponry:apophis_katana', item => {
+        item.attackDamage = 9
+		item.attackSpeed = -2.0
+	});
+
+	event.modify('ec_cje_plugin:enderite_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_cje_plugin:gilded_enderite_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_aquaculture_plugin:neptunium_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_es_plugin:steel_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_tf_plugin:ironwood_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_tf_plugin:fiery_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_tf_plugin:steeleaf_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_tf_plugin:knight_metal_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('expanded_combat:heat_katana', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('expanded_combat:soul_katana', item => {
+		item.attackSpeed = -2.0
+	});
+
+	//RAPIERS
+
+	event.modify('irons_spellbooks:amethyst_rapier', item => {
+		item.attackSpeed = -2.625
+	});
+	event.modify('better_weaponry:copper_rapier', item => {
+        item.attackDamage = 3.5
+    });
+	event.modify('better_weaponry:emerald_rapier', item => {
+		item.attackDamage = 4.5
+	});
+	event.modify('better_weaponry:amethyst_rapier', item => {
+		item.attackDamage = 4.5
+	});
+	event.modify('divine_weaponry:sobek_rapier', item => {
+		item.attackDamage = 7.0
+		item.attackSpeed = -1.8
+	});
+
+	event.modify('simplyswords:wooden_rapier', item => {
+		item.attackDamage = 2.0
+	});
+	event.modify('simplyswords:stone_rapier', item => {
+		item.attackDamage = 3.0
+	});
+	event.modify('simplyswords:golden_rapier', item => {
+		item.attackDamage = 3.5
+	});
+	event.modify('simplyswords:iron_rapier', item => {
+		item.attackDamage = 4.0
+	});
+	event.modify('simplyswords:diamond_rapier', item => {
+		item.attackDamage = 5.0
+	});
+	event.modify('simplyswords:netherite_rapier', item => {
+		item.attackDamage = 6.0
+	});
+	event.modify('simplyswords:runic_rapier', item => {
+		item.attackDamage = 7.0
+	});
+	event.modify('simplyswords:gobber_compat/gobber/gobber_rapier', item => {
+		item.attackDamage = 8.0
+	});
+	event.modify('magistuarmoryaddon:steel_rapier', item => {
+		item.attackSpeed = -1.8
+	});
+
 	//Broadswords
 	event.modify('better_weaponry:wooden_broadsword', item => {
         item.attackDamage = 6.0

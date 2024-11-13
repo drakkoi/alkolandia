@@ -186,7 +186,9 @@ ServerEvents.tags('item', event => {
     event.add('forbidden_arcanus:modifier/eternal_incompatible',[
         'minecraft:nether_star','bloodmagic:sanguinereverter','#occultism:miners/ores','apotheosis:potion_charm'
     ])
+})
 
+ServerEvents.tags('block', event => {
     event.add('forge:needs_netherite_tool',[
         'waystones:mossy_waystone','waystones:sandy_waystone','waystones:waystone'
     ])
