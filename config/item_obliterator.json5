@@ -18,6 +18,11 @@
   "blacklisted_items": [
     "ars_nouveau:glyph_animate_block",
 
+    "aquaculture:iron_fillet_knife",
+    "aquaculture:diamond_fillet_knife",
+    "aquaculture:gold_fillet_knife",
+    "aquaculture:neptunium_fillet_knife",
+
     "divine_weaponry:wooden_katana",
     "divine_weaponry:stone_katana",
     "divine_weaponry:iron_katana",
@@ -320,7 +325,7 @@
     "ec_tf_plugin:steeleaf_battle_staff",
     "ec_tf_plugin:knight_metal_battle_staff",
     "ec_es_plugin:steel_battle_staff",
-    "ec_aquaculture_plugin:neptuniom_battle_staff",
+    "ec_aquaculture_plugin:neptunium_battle_staff",
     "ec_cje_plugin:enderite_battle_staff",
     "ec_cje_plugin:gilded_enderite_battle_staff",
 

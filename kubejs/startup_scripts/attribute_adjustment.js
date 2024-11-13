@@ -467,7 +467,245 @@ ItemEvents.modification(event => {
 		item.attackSpeed = -1.8
 	});
 
-	//Broadswords
+	//KNIFES
+	event.modify('aquaculture:wooden_fillet_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 1.0
+	});
+	event.modify('aquaculture:stone_fillet_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 2.0
+	});
+	event.modify('farmersdelight:flint_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 2.0
+	});
+	event.modify('farmersdelight:iron_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 3.0
+	});
+	event.modify('farmersdelight:diamond_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 4.5
+	});
+	event.modify('farmersdelight:netherite_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 5.0
+	});
+	event.modify('farmersdelight:golden_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 1.0
+	});
+	event.modify('occultism:butcher_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 3.5
+	});
+	event.modify('twilightdelight:ironwood_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 4.0
+	});
+	event.modify('twilightdelight:steeleaf_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 4.0
+	});
+	event.modify('twilightdelight:knightmetal_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 4.0
+	});
+	event.modify('twilightdelight:fiery_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 4.0
+	});
+	event.modify('aquaculturedelight:neptunium_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 4.0
+	});
+	event.modify('better_weaponry:copper_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 2.5
+	});
+	event.modify('better_weaponry:amethyst_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 3.5
+	});
+	event.modify('better_weaponry:emerald_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 3.5
+	});
+	event.modify('warriorsofpastepoch:bayonet_knife', item => {
+		item.attackSpeed = -1.3
+		item.attackDamage = 3.33
+	});
+
+	//CLAYMORES
+	event.modify('better_weaponry:amethyst_claymore', item => {
+		item.attackDamage = 9
+	});
+	event.modify('better_weaponry:emerald_claymore', item => {
+		item.attackDamage = 9
+	});
+	event.modify('ec_cje_plugin:enderite_claymore', item => {
+		item.attackSpeed = -2.8
+		item.attackDamage = 11
+	});
+	event.modify('ec_cje_plugin:gilded_enderite_claymore', item => {
+		item.attackSpeed = -2.8
+		item.attackDamage = 12
+	});
+	event.modify('ec_aquaculture_plugin:neptunium_claymore', item => {
+		item.attackSpeed = -2.8
+		item.attackDamage = 10.5
+	});
+	event.modify('ec_es_plugin:steel_claymore', item => {
+		item.attackSpeed = -2.8
+		item.attackDamage = 8.5
+	});
+	event.modify('magistuarmory:iron_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('magistuarmory:stone_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('magistuarmory:gold_claymore', item => {
+		item.attackSpeed = -1.8
+		item.attackDamage = 5.5
+	});
+	event.modify('magistuarmory:diamond_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('magistuarmory:copper_claymore', item => {
+		item.attackSpeed = -1.8
+		item.attackDamage = 5.5
+	});
+	event.modify('magistuarmory:steel_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('magistuarmory:netherite_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('magistuarmory:silver_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('magistuarmory:tin_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('magistuarmory:bronze_claymore', item => {
+		item.attackSpeed = -1.8
+	});
+	event.modify('expanded_combat:void_touched_claymore', item => {
+		item.attackSpeed = -1.8
+		item.attackDamage = 3.5
+	});
+	
+	//CHAKRAMS
+	event.modify('better_weaponry:amethyst_chakram', item => {
+		item.attackDamage = 4.5
+	});
+
+	//HALBERDS
+	event.modify('knavesneeds:forbidden_arcanus/draco_arcanus/halberd', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('knavesneeds:forbidden_arcanus/reinforced_deorum/halberd', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('knavesneeds:soulsweapons/translucent/halberd', item => {
+		item.attackSpeed = -2.15
+	});
+	event.modify('knavesneeds:deeperdarker/warden/halberd', item => {
+		item.attackSpeed = -2.15
+	});
+
+	event.modify('simplyswords:diamond_halberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('simplyswords:netherite_halberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('simplyswords:runic_halberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('simplyswords:magihalberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('simplyswords:gobber_compat/gobber/gobber_halberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('simplyswords:gobber_compat/gobber_nether/gobber_nether_halberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('simplyswords:gobber_compat/gobber_end/gobber_end_halberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('entropy:hullbreak_halberd', item => {
+		item.attackSpeed = -3.2
+		item.attackDamage = 15.0
+	});
+	event.modify('magistuarmory:gold_concavehalberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('magistuarmory:diamond_concavehalberd', item => {
+		item.attackSpeed = -3.2
+	});
+	event.modify('magistuarmory:netherite_concavehalberd', item => {
+		item.attackSpeed = -3.2
+	});
+
+	//MACHETES
+	event.modify('better_weaponry:amethyst_machete', item => {
+        item.attackDamage = 7.0
+	});
+
+	//MACES
+	event.modify('ec_cje_plugin:enderite_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('ec_cje_plugin:gilded_enderite_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('ec_aquaculture_plugin:neptunium_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('ec_es_plugin:steel_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('ec_tf_plugin:ironwood_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('ec_tf_plugin:fiery_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('ec_tf_plugin:steeleaf_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('ec_tf_plugin:knight_metal_mace', item => {
+		item.attackSpeed = -3.0
+	});
+	event.modify('born_in_chaos_v1:shell_mace', item => {
+		item.attackSpeed = -3.0
+		item.attackDamage = 9.0
+	});
+	event.modify('better_weaponry:amethyst_mace', item => {
+		item.attackDamage = 9.0
+		item.attackSpeed = -3.0
+	});
+	event.modify('better_weaponry:emerald_mace', item => {
+		item.attackDamage = 9.0
+		item.attackSpeed = -3.0
+	});
+
+	//SICKLES
+	event.modify('better_weaponry:amethyst_sickle', item => {
+        item.attackDamage = 4.0
+	});
+	event.modify('ec_es_plugin:steel_sickle', item => {
+        item.attackDamage = 4.0
+	});
+	event.modify('magistuarmoryaddon:steel_sickle', item => {
+        item.attackSpeed = -1.8
+	});
+
+	//BROADSWORDS
 	event.modify('better_weaponry:wooden_broadsword', item => {
         item.attackDamage = 6.0
 		item.attackSpeed = -3.0
@@ -502,6 +740,93 @@ ItemEvents.modification(event => {
 	});
 	event.modify('better_weaponry:netherite_broadsword', item => {
         item.attackDamage = 10
-		item.attackSpeed = -3.0
 	});
+	
+	//STAFFS
+	event.modify('born_in_chaos_v1:staffof_magic_arrows', item => {
+		item.attackDamage = 8.0
+	});
+	
+	//BATTLEAXES
+	event.modify('better_weaponry:amethyst_battleaxe', item => {
+		item.attackDamage = 9.5
+	});
+	event.modify('magistuarmoryaddon:steel_battleaxe', item => {
+		item.attackSpeed = -2.35
+        item.attackDamage = 9.5
+	});
+	
+	//SAIS
+	event.modify('knavesneeds:twilight_forest/fiery/sai', item => {
+		item.attackDamage = 6.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('knavesneeds:twilight_forest/steeleaf/sai', item => {
+		item.attackDamage = 5.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('knavesneeds:twilight_forest/knightmetal/sai', item => {
+		item.attackDamage = 4.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('knavesneeds:twilight_forest/ironwood/sai', item => {
+		item.attackDamage = 3.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('knavesneeds:forbidden_arcanus/draco_arcanus/sai', item => {
+		item.attackDamage = 6.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('knavesneeds:forbidden_arcanus/reinforced_deorum/sai', item => {
+		item.attackDamage = 5.5
+		item.attackSpeed = -0.8
+	});
+	event.modify('knavesneeds:soulsweapons/translucent/sai', item => {
+		item.attackDamage = 5.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('knavesneeds:deeperdarker/warden/sai', item => {
+		item.attackDamage = 8.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:gold_sai', item => {
+		item.attackDamage = 2.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:iron_sai', item => {
+		item.attackDamage = 3.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:diamond_sai', item => {
+		item.attackDamage = 4.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:netherite_sai', item => {
+		item.attackDamage = 5.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:runic_sai', item => {
+		item.attackDamage = 6.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:gobber_compat/gobber/gobber_sai', item => {
+		item.attackDamage = 6.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:gobber_compat/gobber_nether/gobber_nether_sai', item => {
+		item.attackDamage = 8.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('simplyswords:gobber_compat/gobber_end/gobber_end_sai', item => {
+		item.attackDamage = 11.0
+		item.attackSpeed = -0.8
+	});
+	event.modify('samurai_dynasty:sai', item => {
+		item.attackSpeed = -0.8
+	});
+	event.modify('epic_knights__japanese_armory:iron_sai', item => {
+		item.attackDamage = 3.0
+		item.attackSpeed = -0.8
+	});
+
 })

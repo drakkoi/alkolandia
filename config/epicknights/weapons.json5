@@ -18,14 +18,14 @@
 		"bonusAttackReach": 0.0
 	},
 	"flail": {
-		"enabled": true,
+		"enabled": false,
 		"baseAttackDamage": 6.199999809265137,
 		"baseAttackSpeed": 1.0,
 		"bonusAttackReach": 0.0
 	},
 	"heavyMace": {
 		"enabled": true,
-		"baseAttackDamage": 4.800000190734863,
+		"baseAttackDamage": 5.800000190734863,
 		"baseAttackSpeed": 1.149999976158142,
 		"bonusAttackReach": 0.0
 	},
@@ -164,7 +164,7 @@
 	"shortSword": {
 		"enabled": true,
 		"baseAttackDamage": 2.5,
-		"baseAttackSpeed": 1.7000000476837158,
+		"baseAttackSpeed": 1.8,
 		"bonusAttackReach": 0.0
 	}
 }
