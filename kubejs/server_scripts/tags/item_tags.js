@@ -189,7 +189,7 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('block', event => {
-    event.add('forge:needs_netherite_tool',[
+    event.add('gobber2:needs_overworld_gobber_tool',[
         'waystones:mossy_waystone','waystones:sandy_waystone','waystones:waystone'
     ])
 })

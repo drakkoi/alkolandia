@@ -117,21 +117,21 @@ ItemEvents.modification(event => {
 		item.attackDamage = 17.0
 	});
 	
-	//event.modify('soulsweapons:forlorn_scythe', item => {
-		//item.attackSpeed = -3.3
-//		item.attackDamage = 17.0
-//	});
+	// event.modify('soulsweapons:forlorn_scythe', item => {
+	// 	item.attackSpeed = -3.3
+	// 	item.attackDamageBonus = 17.0
+	// });
 	// event.modify('soulsweapons:darkin_scythe_pre', item => {
 	// 	item.attackSpeed = -3.3
-	// 	item.attackDamage = 15.0
+	// 	item.attackDamageBonus = 15.0
 	// });
 	// event.modify('soulsweapons:darkin_scythe', item => {
 	// 	item.attackSpeed = -3.3
-	// 	item.attackDamage = 19.0
+	// 	item.attackDamageBonus = 19.0
 	// });
 	// event.modify('soulsweapons:shadow_assasin_scythe', item => {
 	// 	item.attackSpeed = -3.3
-	// 	item.attackDamage = 19.0
+	// 	item.attackDamageBonus = 19.0
 	// });
 
 	event.modify('simplyswords:diamond_scythe', item => {
@@ -476,50 +476,50 @@ ItemEvents.modification(event => {
 		item.attackSpeed = -1.3
 		item.attackDamage = 2.0
 	});
-	event.modify('farmersdelight:flint_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 2.0
-	});
-	event.modify('farmersdelight:iron_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 3.0
-	});
-	event.modify('farmersdelight:diamond_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 4.5
-	});
-	event.modify('farmersdelight:netherite_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 5.0
-	});
-	event.modify('farmersdelight:golden_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 1.0
-	});
+	// event.modify('farmersdelight:flint_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamageBonus = 2.0
+	// });
+	// event.modify('farmersdelight:iron_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamageBonus = 3.0
+	// });
+	// event.modify('farmersdelight:diamond_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamage = 4.5
+	// });
+	// event.modify('farmersdelight:netherite_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamageBonus = 5.0
+	// });
+	// event.modify('farmersdelight:golden_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamageBonus = 1.0
+	// });
 	event.modify('occultism:butcher_knife', item => {
 		item.attackSpeed = -1.3
 		item.attackDamage = 3.5
 	});
-	event.modify('twilightdelight:ironwood_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 4.0
-	});
-	event.modify('twilightdelight:steeleaf_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 4.0
-	});
-	event.modify('twilightdelight:knightmetal_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 4.0
-	});
-	event.modify('twilightdelight:fiery_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 4.0
-	});
-	event.modify('aquaculturedelight:neptunium_knife', item => {
-		item.attackSpeed = -1.3
-		item.attackDamage = 4.0
-	});
+	// event.modify('twilightdelight:ironwood_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamage = 4.0
+	// });
+	// event.modify('twilightdelight:steeleaf_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamage = 4.0
+	// });
+	// event.modify('twilightdelight:knightmetal_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamage = 4.0
+	// });
+	// event.modify('twilightdelight:fiery_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamage = 4.0
+	// });
+	// event.modify('aquaculturedelight:neptunium_knife', item => {
+	// 	item.attackSpeed = -1.3
+	// 	item.attackDamage = 4.0
+	// });
 	event.modify('better_weaponry:copper_knife', item => {
 		item.attackSpeed = -1.3
 		item.attackDamage = 2.5
@@ -637,10 +637,10 @@ ItemEvents.modification(event => {
 	event.modify('simplyswords:gobber_compat/gobber_end/gobber_end_halberd', item => {
 		item.attackSpeed = -3.2
 	});
-	event.modify('entropy:hullbreak_halberd', item => {
-		item.attackSpeed = -3.2
-		item.attackDamage = 15.0
-	});
+	// event.modify('entropy:hullbreak_halberd', item => {
+	// 	item.attackSpeed = -3.2
+	// 	item.attackDamage = 15.0
+	// });
 	event.modify('magistuarmory:gold_concavehalberd', item => {
 		item.attackSpeed = -3.2
 	});
@@ -743,9 +743,9 @@ ItemEvents.modification(event => {
 	});
 	
 	//STAFFS
-	event.modify('born_in_chaos_v1:staffof_magic_arrows', item => {
-		item.attackDamage = 8.0
-	});
+	// event.modify('born_in_chaos_v1:staffof_magic_arrows', item => {
+	// 	item.attackDamage = 8.0
+	// });
 	
 	//BATTLEAXES
 	event.modify('better_weaponry:amethyst_battleaxe', item => {
@@ -828,5 +828,7 @@ ItemEvents.modification(event => {
 		item.attackDamage = 3.0
 		item.attackSpeed = -0.8
 	});
+	//CUTLASS
+
 
 })

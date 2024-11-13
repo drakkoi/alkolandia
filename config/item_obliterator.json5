@@ -18,6 +18,17 @@
   "blacklisted_items": [
     "ars_nouveau:glyph_animate_block",
 
+    "useless_sword:silvillager",
+    "galosphere:deepslate_silver_ore",
+    "iceandfire:deepslate_silver_ore",
+    "samurai_dynasty:deepslate_silver_ore",
+    "samurai_dynasty:silver_block",
+    "samurai_dynasty:steel_block",
+    "eidolon:deep_silver_ore",
+    "epic_knights_ores_and_alloys:silver_ore",
+    "epic_knights_ores_and_alloys:silver_block",
+    "bronzeaddition_epicknights:eka_bronze_blockl",
+
     "aquaculture:iron_fillet_knife",
     "aquaculture:diamond_fillet_knife",
     "aquaculture:gold_fillet_knife",
