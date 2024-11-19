@@ -116,23 +116,6 @@ ItemEvents.modification(event => {
 		item.attackSpeed = -3.3
 		item.attackDamage = 17.0
 	});
-	
-	// event.modify('soulsweapons:forlorn_scythe', item => {
-	// 	item.attackSpeed = -3.3
-	// 	item.attackDamageBonus = 17.0
-	// });
-	// event.modify('soulsweapons:darkin_scythe_pre', item => {
-	// 	item.attackSpeed = -3.3
-	// 	item.attackDamageBonus = 15.0
-	// });
-	// event.modify('soulsweapons:darkin_scythe', item => {
-	// 	item.attackSpeed = -3.3
-	// 	item.attackDamageBonus = 19.0
-	// });
-	// event.modify('soulsweapons:shadow_assasin_scythe', item => {
-	// 	item.attackSpeed = -3.3
-	// 	item.attackDamageBonus = 19.0
-	// });
 
 	event.modify('simplyswords:diamond_scythe', item => {
 		item.attackSpeed = -3.3
@@ -597,6 +580,9 @@ ItemEvents.modification(event => {
 		item.attackDamage = 3.5
 	});
 	
+}),
+ItemEvents.modification(event => {
+
 	//CHAKRAMS
 	event.modify('better_weaponry:amethyst_chakram', item => {
 		item.attackDamage = 4.5
@@ -828,7 +814,193 @@ ItemEvents.modification(event => {
 		item.attackDamage = 3.0
 		item.attackSpeed = -0.8
 	});
-	//CUTLASS
 
+	//CUTLASSES
+	event.modify('better_weaponry:copper_cutlass', item => {
+		item.attackDamage = 3.5
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:emerald_cutlass', item => {
+		item.attackDamage = 5.5
+		item.attackSpeed = -2.0
+	});
+	event.modify('better_weaponry:amethyst_cutlass', item => {
+		item.attackDamage = 5.5
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_cje_plugin:enderite_cutlass', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_cje_plugin:gilded_enderite_cutlass', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_aquaculture_plugin:neptunium_cutlass', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('ec_es_plugin:steel_cutlass', item => {
+		item.attackSpeed = -2.0
+	});
+	event.modify('magistuarmoryaddon:steel_cutlass', item => {
+		item.attackSpeed = -2.0
+		item.attackDamage = 6.0
+	});
 
+	//GLAIVES
+	event.modify('better_weaponry:copper_glaive', item => {
+		item.attackDamage = 3.5
+		item.attackSpeed = -2.6
+	});
+	event.modify('better_weaponry:emerald_glaive', item => {
+		item.attackDamage = 5.5
+		item.attackSpeed = -2.6
+	});
+	event.modify('better_weaponry:amethyst_glaive', item => {
+		item.attackDamage = 5.5
+		item.attackSpeed = -2.6
+	});
+	event.modify('divine_weaponry:tunupa_glaive', item => {
+		item.attackSpeed = -2.6
+	});
+	event.modify('ec_cje_plugin:enderite_glaive', item => {
+		item.attackSpeed = -2.6
+	});
+	event.modify('ec_cje_plugin:gilded_enderite_glaive', item => {
+		item.attackSpeed = -2.6
+	});
+	event.modify('ec_aquaculture_plugin:neptunium_glaive', item => {
+		item.attackSpeed = -2.6
+	});
+	event.modify('ec_es_plugin:steel_glaive', item => {
+		item.attackSpeed = -2.6
+	});
+	event.modify('magistuarmoryaddon:steel_glaive', item => {
+		item.attackSpeed = -2.6
+		item.attackDamage = 6.0
+	});
+
+	//SPEARS
+	event.modify('better_weaponry:amethyst_spear', item => {
+		item.attackDamage = 9.5
+	});
+	event.modify('divine_weaponry:om_spear', item => {
+		item.attackDamage = 12.0
+	});
+	event.modify('ec_cje_plugin:enderite_spear', item => {
+		item.attackSpeed = -2.7
+		item.attackDamage = 15.0
+	});
+	event.modify('ec_cje_plugin:gilded_enderite_spear', item => {
+		item.attackSpeed = -2.7
+		item.attackDamage = 15.5
+	});
+	event.modify('ec_aquaculture_plugin:neptunium_spear', item => {
+		item.attackSpeed = -2.7
+		item.attackDamage = 13.5
+	});
+	event.modify('ec_es_plugin:steel_spear', item => {
+		item.attackSpeed = -2.7
+		item.attackDamage = 10.5
+	});
+	event.modify('magistuarmoryaddon:steel_spear', item => {
+		item.attackSpeed = -2.7
+		item.attackDamage = 6.0
+	});
+	// event.modify('cataclysm:coral_spear', item => {
+	// 	item.attackSpeed = -2.7
+	// 	item.attackDamage = 9.5
+	// });
+	event.modify('knavesneeds:twilight_forest/fiery/spear', item => {
+		item.attackDamage = 12.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('knavesneeds:twilight_forest/steeleaf/spear', item => {
+		item.attackDamage = 11.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('knavesneeds:twilight_forest/knightmetal/spear', item => {
+		item.attackDamage = 10.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('knavesneeds:twilight_forest/ironwood/spear', item => {
+		item.attackDamage = 9.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('knavesneeds:forbidden_arcanus/draco_arcanus/spear', item => {
+		item.attackDamage = 12.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('knavesneeds:forbidden_arcanus/reinforced_deorum/spear', item => {
+		item.attackDamage = 11.5
+		item.attackSpeed = -2.7
+	});
+	event.modify('knavesneeds:soulsweapons/translucent/spear', item => {
+		item.attackDamage = 11.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('knavesneeds:deeperdarker/warden/spear', item => {
+		item.attackDamage = 14.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('simplyswords:diamond_spear', item => {
+		item.attackDamage = 10.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('simplyswords:netherite_spear', item => {
+		item.attackDamage = 11.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('simplyswords:runic_spear', item => {
+		item.attackDamage = 12.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('simplyswords:magispear', item => {
+		item.attackDamage = 14.0
+	});
+	event.modify('simplyswords:gobber_compat/gobber/gobber_spear', item => {
+		item.attackDamage = 12.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('simplyswords:gobber_compat/gobber_nether/gobber_nether_spear', item => {
+		item.attackDamage = 14.0
+		item.attackSpeed = -2.7
+	});
+	event.modify('simplyswords:gobber_compat/gobber_end/gobber_end_spear', item => {
+		item.attackDamage = 17.0
+		item.attackSpeed = -2.7
+	});
+	// event.modify('mowziesmobs:spear', item => {
+	// 	item.attackDamage = 7.5
+	// 	item.attackSpeed = -2.7
+	// });
+	// event.modify('alexscaves:limestone_spear', item => {
+	// 	item.attackDamage = 8.0
+	// 	item.attackSpeed = -2.7
+	// });
+	// event.modify('alexscaves:extinction_spear', item => {
+	// 	item.attackDamage = 13.0
+	// 	item.attackSpeed = -2.7
+	// });
+	// event.modify('alexscaves:frostmint_spear', item => {
+	// 	item.attackDamage = 9.0
+	// 	item.attackSpeed = -2.7
+	// 	item.maxDamage = 59
+	// });
+	
+	//HAMMERS
+	event.modify('better_weaponry:copper_hammer', item => {
+		item.attackDamage = 9.5
+		item.attackSpeed = -3.0
+	});
+	event.modify('better_weaponry:amethyst_hammer', item => {
+		item.attackDamage = 10.5
+		item.attackSpeed = -3.0
+	});
+	event.modify('better_weaponry:emerald_hammer', item => {
+		item.attackDamage = 10.5
+		item.attackSpeed = -3.0
+	});
+	event.modify('hexerei:warhammer', item => {
+		item.attackDamage = 14.0
+		item.attackSpeed = -2.8
+	});
 })

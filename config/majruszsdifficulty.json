@@ -357,7 +357,7 @@
       "damage_bonus": {
         "__default": 0.0,
         "expert": 2.0,
-        "master": 6.0
+        "master": 5.0
       },
       "excluded_mobs": []
     },
@@ -407,7 +407,7 @@
     }
   },
   "blood_moon": {
-    "is_enabled": false,
+    "is_enabled": true,
     "night_trigger_chance": 0.0666,
     "spawn_rate_multiplier": 2.0,
     "crd_penalty": 0.5
@@ -417,7 +417,7 @@
     "reset_all_participants_kills": true,
     "wave_duration": 1200.0,
     "preparing_duration": 10.0,
-    "highlight_delay": 300.0,
+    "highlight_delay": 180.0,
     "extra_size_ratio_per_player": 0.5,
     "area_radius": 70,
     "kill_requirement": 100,
@@ -756,7 +756,8 @@
     ],
     "immune_mobs": [
       "minecraft:zombie_horse",
-      "minecraft:skeleton_horse"
+      "minecraft:skeleton_horse",
+      "soulsweapons:freyr_sword_entity"
     ],
     "effect": {
       "__default": {

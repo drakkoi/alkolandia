@@ -25,9 +25,9 @@
 	},
 	"antiqueSpear": {
 		"enabled": true,
-		"baseAttackDamage": 2.799999952316284,
+		"baseAttackDamage": 6.800000190734863,
 		"baseAttackSpeed": 1.2999999523162842,
-		"bonusAttackReach": 1.4500000476837158
+		"bonusAttackReach": 2.0
 	},
 	"doru": {
 		"enabled": true,
@@ -49,9 +49,9 @@
 	},
 	"triariiSpear": {
 		"enabled": true,
-		"baseAttackDamage": 3.0999999046325684,
+		"baseAttackDamage": 7.0,
 		"baseAttackSpeed": 1.25,
-		"bonusAttackReach": 1.899999976158142
+		"bonusAttackReach": 2.0
 	},
 	"antiqueSword": {
 		"enabled": true,

@@ -140,7 +140,7 @@
 	"hammerSpear": {
 		"enabled": true,
 		"baseAttackDamage": 7.199999809265137,
-		"baseAttackSpeed": 1.0,
+		"baseAttackSpeed": 1.399999976158142,
 		"bonusAttackReach": 0.800000011920929
 	},
 	"twoHandedEveningStar": {
@@ -241,8 +241,8 @@
 	},
 	"boarSpear": {
 		"enabled": true,
-		"baseAttackDamage": 3.0,
-		"baseAttackSpeed": 1.149999976158142,
+		"baseAttackDamage": 5.800000190734863,
+		"baseAttackSpeed": 1.2999999523162842,
 		"bonusAttackReach": 1.5
 	},
 	"fauchard": {
@@ -283,9 +283,9 @@
 	},
 	"shortSpear": {
 		"enabled": true,
-		"baseAttackDamage": 3.0,
+		"baseAttackDamage": 5.800000190734863,
 		"baseAttackSpeed": 1.2000000476837158,
-		"bonusAttackReach": 1.4500000476837158
+		"bonusAttackReach": 2.0
 	},
 	"voulge": {
 		"enabled": true,

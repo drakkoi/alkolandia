@@ -2,7 +2,7 @@
 #Common configuration settings. Most other configuration can be found in the world (server)configuration folder
 [common]
 	#Send mod version, MC version and mod count to mod author
-	collectStats = true
+	collectStats = false
 
 	[common.internal]
 		#INTERNAL - Set to 'never' if you don't want to be notified about integration mods
