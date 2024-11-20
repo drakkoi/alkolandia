@@ -48,7 +48,7 @@
 		#In ticks
 		#Range: > 1
 		awarenessCooldown = 1
-		#Squared distance as of which a disguised hunter is invisible
+		#Squared distance as of which a disguised hunter is invisible. Modified by godly_vampirism
 		#Range: > 1
 		disguiseInvisibleSQ = 256
 
@@ -58,7 +58,7 @@
 		naturalArmorToughnessIncrease = 8
 		#Buff sunscreen potion to prevent negative effects at any level
 		sunscreenBuff = false
-		#Multiply fire damage with this for vampires - Changed due to IceAndFire
+		#Multiply fire damage with this for vampires - Changed due to IceAndFire. Modified by godly_vampirism
 		#Range: 0.1 ~ 1.7976931348623157E308
 		fireVulnerabilityMod = 1.5
 		#Range: > 1
@@ -73,7 +73,7 @@
 		sundamageWaterblocks = 4
 		#Range: > 1
 		sundamageNauseaMinLevel = 3
-		#Weather a vampire player that receives sundamage should also receive a nausea effect
+		#Weather a vampire player that receives sundamage should also receive a nausea effect. Modified by godly_vampirism
 		sundamageNausea = true
 		#Range: 0.3 ~ 10.0
 		playerBloodSaturation = 1.5
@@ -82,24 +82,25 @@
 		#The base value of natural armor every vampire has at level 1
 		#Range: 0 ~ 100
 		naturalArmorBaseValue = 10
-		#Base duration of neonatal effect after resurrection. In sec.
+		#Base duration of neonatal effect after resurrection. In sec.. Modified by godly_vampirism
 		#Range: > 1
 		neonatalDuration = 120
 		#The amount of natural armor a max level vampire has in addition to the base value
 		#Range: 0 ~ 100
 		naturalArmorIncrease = 10
-		#Defines the maximum extend the yellow border covers when the player is in the sun. 100 is default. 0 to disable completely
+		#Defines the maximum extend the yellow border covers when the player is in the sun. 100 is default. 0 to disable completely. Modified by godly_vampirism
 		#Range: 0 ~ 100
 		maxYellowBorderPercentage = 100
 		#Disable vampire blood vision
 		bloodVisionDisabled = false
+		#null. Modified by godly_vampirism
 		#Range: 0.5 ~ 40.0
 		healthMaxMod = 16.0
 		#Range: 0.0 ~ 2.0
 		attackSpeedMaxMod = 0.15
 		#Whether vampire have a reduced speed and attack boost when wearing heavy armor
 		armorPenalty = true
-		#Blood exhaustion is multiplied with this value
+		#Blood exhaustion is multiplied with this value. Modified by godly_vampirism
 		#Range: 0.0 ~ 5.0
 		bloodExhaustionFactor = 0.7
 		#Range: > 1
@@ -108,17 +109,18 @@
 		speedMaxMod = 0.3
 		#List of damage source types that the player does not die from (immediately)
 		immortalFromDamageSources = ["player", "mob", "drown", "lightningBolt", "onFire", "cramming", "fall", "flyIntoWall", "magic", "wither", "anvil", "falling_block", "dragon_breath", "sweetBerryBush", "trident", "arrow", "fireworks", "fireBall", "witherSkull", "explosion", "explosion.player", "thrown", "indirectMagic", "vampire_on_fire", "sting", "fallingStalactite", "stalagmite", "freeze"]
-		#Whether to replace the vanilla fire resistance potion for vampires with a custom one that only reduces damage but does not remove it - Changed due to IceAndFire
+		#Whether to replace the vanilla fire resistance potion for vampires with a custom one that only reduces damage but does not remove it - Changed due to IceAndFire. Modified by godly_vampirism
 		fireResistanceReplace = false
+		#null. Modified by godly_vampirism
 		#Range: 1.0 ~ 1.7976931348623157E308
 		sundamage = 7.0
-		#Base cooldown before a downed vampire can resurrect. In sec.
+		#Base cooldown before a downed vampire can resurrect. In sec.. Modified by godly_vampirism
 		#Range: 1 ~ 1000
 		dbnoDuration = 60
 		#Average duration of the Sanguinare Vampiris Effect. The final duration is random between 0.5 x avgDuration - 1.5 x avgDuration. In Seconds.
 		#Range: 1 ~ 10000
 		sanguinareAverageDuration = 900
-		#The duration it takes for the vampire natural armor to fully regenerate after respawn. In seconds
+		#The duration it takes for the vampire natural armor to fully regenerate after respawn. In seconds. Modified by godly_vampirism
 		#Range: 1 ~ 2400
 		naturalArmorRegenDuration = 240
 
@@ -188,7 +190,7 @@
 		ignoreSundamageCooldown = 6
 
 	[balance.vampireSkills]
-		#Blood exhaustion is multiplied with (value+1)
+		#Blood exhaustion is multiplied with (value+1). Modified by godly_vampirism
 		#Range: -1.0 ~ 0.0
 		bloodThirstReduction1 = -0.4
 		#Max speed is multiplied with (value+1)
@@ -253,13 +255,13 @@
 		#Time in seconds a minion needs to recover from death.
 		#Range: 1 ~ 21474836
 		deathRecoveryTime = 220
-		#How many minions a player can have per lord level. Probably don't want to go very high
+		#How many minions a player can have per lord level. Probably don't want to go very high. Modified by godly_vampirism
 		#Range: 0 ~ 100
 		minionPerLordLevel = 1
 		#Cooldown in ticks,before new resources are added in collect resource task types
 		#Range: > 20
 		resourceCooldown = 1500
-		#How much the equipments should be repaired on minion resource tasks
+		#How much the equipments should be repaired on minion resource tasks. Modified by godly_vampirism
 		#Range: > 1
 		equipmentRepairAmount = 10
 		#Cooldown multiplier for collect resource task types while player is offline
@@ -270,7 +272,7 @@
 		#The blood mB to charge percentage of the normal vampire sword
 		#Range: 0.0 ~ 1.0
 		vampireSwordChargingFactor = 5.0E-4
-		#Damage a normal holy water splash bottle does when directly hitting a vampire
+		#Damage a normal holy water splash bottle does when directly hitting a vampire. Modified by godly_vampirism
 		#Range: > 0
 		holyWaterSplashDamage = 5
 		#Duration of the blindness effect caused by special holy water (ticks)
@@ -294,22 +296,22 @@
 		vampireSwordBloodUsageFactor = 0.5
 		#Whether creepers should ignore vampires
 		creeperIgnoreVampire = true
-		#Whether special crossbow arrows (e.g. spitfire) can be used with infinity enchantment
+		#Whether special crossbow arrows (e.g. spitfire) can be used with infinity enchantment. Modified by godly_vampirism
 		allowInfiniteSpecialArrows = false
 		#Delay in seconds before a newly placed garlic diffuser becomes active. *0.25 in Singleplayer
 		#Range: 1 ~ 10000
 		garlicDiffuserStartupTime = 100
-		#Holy water damage is multiplied with this value for each tier above normal
+		#Holy water damage is multiplied with this value for each tier above normal. Modified by godly_vampirism
 		#Range: 1.0 ~ 10.0
 		holyWaterTierDamageInc = 2.0
 		#Whether skeletons should ignore vampires
 		skeletonIgnoreVampire = true
 		#If the sanguinare effect can be canceled by milk
 		canCancelSanguinare = true
-		#Players receive n skill points for each level-up. Anything except 2 is unbalanced, but to unlock all skills on maxlevel this value should be set to skill-amount/(max-level - 1)
+		#Players receive n skill points for each level-up. Anything except 2 is unbalanced, but to unlock all skills on maxlevel this value should be set to skill-amount/(max-level - 1). Modified by godly_vampirism
 		#Range: 1.0 ~ 20.0
 		skillPointsPerLevel = 2.0
-		#Players receive n skill points for each lord level-up. Anything except 2 is unbalanced, but to unlock all skills on max lord level this value should be set to skill-amount/(max-level - 1)
+		#Players receive n skill points for each lord level-up. Anything except 2 is unbalanced, but to unlock all skills on max lord level this value should be set to skill-amount/(max-level - 1). Modified by godly_vampirism
 		#Range: 1.0 ~ 20.0
 		skillPointsPerLordLevel = 2.0
 		#Duration a task can be completed in a singleplayer world. In Minutes
@@ -321,7 +323,7 @@
 		#Duration of the nausea effect caused by enhanced or special holy water (ticks)
 		#Range: 0 ~ 1000
 		holyWaterNauseaDuration = 200
-		#The vampire killer arrow can only instant kill NPC vampires that have a max (not actual) health of this
+		#The vampire killer arrow can only instant kill NPC vampires that have a max (not actual) health of this. Modified by godly_vampirism
 		#Range: > 1
 		arrowVampireKillerMaxHealth = 40
 		#Maximum number of hunters that can spawn at one tent per day
@@ -329,7 +331,7 @@
 		hunterTentMaxSpawn = 4
 
 	[balance.hunterSkills]
-		#Advanced skill - Weapon cooldown = 1/(oldvalue*(1+modifier)
+		#Advanced skill - Weapon cooldown = 1/(oldvalue*(1+modifier). Modified by godly_vampirism
 		#Range: 0.0 ~ 3.0
 		majorAttackSpeedModifier = 0.4
 		#Second stake skill - Whether only NPCs can be one hit killed with this skill
@@ -412,7 +414,7 @@
 		halfInvulnerableEnabled = true
 		#Whether to allow players in bat mode to interact with items/blocks and place/break blocks
 		batAllowInteraction = false
-		#In seconds
+		#In seconds. Modified by godly_vampirism
 		#Range: > 1
 		teleportCooldown = 10
 		rageEnabled = true
@@ -442,9 +444,10 @@
 		#Range: > 1
 		freezeCooldown = 60
 		batEnabled = true
-		#In seconds. Increase per vampire level
+		#In seconds. Increase per vampire level. Modified by godly_vampirism
 		#Range: 0 ~ 1000
 		rageDurationIncrease = 5
+		#null. Modified by godly_vampirism
 		#Range: 1 ~ 1000
 		teleportMaxDistance = 50
 		#In seconds

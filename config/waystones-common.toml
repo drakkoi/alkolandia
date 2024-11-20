@@ -115,7 +115,7 @@
 	#Allowed Values: PRESET_FIRST, RANDOM_ONLY, PRESET_ONLY, MIXED
 	nameGenerationMode = "PRESET_FIRST"
 	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
-	customWaystoneNames = ["Smolensk", "Stonks", "Amogus", "Belhatov", "Chernobyl", "Hiroshima", "Kongo", "Uganda"]
+	customWaystoneNames = ["Smolensk", "Stonks", "Amogus", "Belhatov", "Czarnobyl", "Hiroshima", "Kongo", "Uganda", "Boleslawiec", "Bydgoszcz", "Uranus", "Accident", "Krzywe Kolano", "Moszna", "Morszczyn", "Wegoz", "Zakopane", "Wygwizdowie", "Okruszek", "Harambe", "Zadupie", "Kalisz", "Cebuloza", "Grochuw", "Sliskonam", "Kipci", "Rozkopane", "Wykopane", "Yyiieeugh", "Rzygamtu", "Rzygamtam", "Ciezkie gnaty", "Macanie", "Doopa", "Smark", "Treblinka", "Auschwitz", "Kurwidolek", "Zydem palone w piecach", "Pod wieprzem", "Zmurzyn"]
 	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
 	spawnInVillages = true
 	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
